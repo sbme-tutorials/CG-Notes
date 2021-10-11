@@ -37,6 +37,6 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 ## Tutorials
 
 * Week 1: Introduction to Computer Graphics
-    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/1-week1.html)
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/1-week1.html){:target="_blank"}
 
 ## Assignments
