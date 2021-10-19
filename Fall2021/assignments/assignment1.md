@@ -8,18 +8,18 @@
 
 ## Deadline
 
+27/10/2021
 
 ## Joining to Assignment Repository
 
-1. Go to the [Assignment Page]()
-2. Accept the assignment.
+1. Go to the [Assignment Page](https://classroom.github.com/a/d33DQoa4)
+2. Join your group or create it
 3. Wait till your repository created.
-4. Open the link and Clone repository.
 
 ## Part 1: Programming
 
 1. Complete the robotic arm model by adding missing fingers
-2. Control arm movements using keyboard keys. 
+2. Control arm movements using keyboard key with movement limitation.
 
 ![](../images/robot-arm-fingers.png)
 
