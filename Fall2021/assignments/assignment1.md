@@ -1,5 +1,3 @@
-# Assignment 1
-
 ## Objectives
 
 * Warming up with OpenGL. 
