@@ -2,5 +2,8 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-plugins:
-  - jekyll-latex
+# Build settings
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
