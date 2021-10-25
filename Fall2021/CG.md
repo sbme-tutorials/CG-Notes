@@ -33,7 +33,7 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 | Week | Content |  Assignments
 |------|-----------------|-----|
 |   1  | Introduction to Computer Graphics| |
-|   2  | Transformation | Assignment 1|
+|   2  | Transformations | Assignment 1|
 
 ## Tutorials
 
@@ -43,6 +43,9 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 * Week 2: Transformations
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/2-week2.html){:target="_blank"}
 
+## Sheets 
+
+* [Sheet 1: Transformations](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/Sheet1.pdf)
 
 ## Assignments
 
