@@ -186,7 +186,7 @@ $$
 R^T = R^{-1} 
 $$
 
-* Reflection is 180  degree rotation.
+
 
 ### Transformation in OpenGL 
 
