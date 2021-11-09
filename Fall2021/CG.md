@@ -2,7 +2,7 @@
 
 ## Teaching Staff
 
-Instructors: Prof. Ayman ElDieb
+Instructors: Prof. Ayman Eldeib
 
 Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.  
 
