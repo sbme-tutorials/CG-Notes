@@ -34,6 +34,8 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 |------|-----------------|-----|
 |   1  | Introduction to Computer Graphics| |
 |   2  | Transformations | Assignment 1|
+|   3  | Projection | |
+|   4  | Camera Transformation |  Assignment 2 |
 
 ## Tutorials
 
@@ -43,6 +45,13 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 * Week 2: Transformations
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/2-week2.html){:target="_blank"}
 
+* Week 3: Projection
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/3-week3.html){:target="_blank"}
+
+* Week 4: Camera Transformation
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/4-week4.html){:target="_blank"}
+
+
 ## Sheets 
 
 * [Sheet 1: Transformations](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/Sheet1.pdf)
@@ -51,5 +60,8 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 
 
 * [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment1.html){:target="_blank"}
+
+<!-- * [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment2.html){:target="_blank"} -->
+
 
 
