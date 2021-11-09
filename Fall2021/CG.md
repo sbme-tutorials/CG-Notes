@@ -61,7 +61,7 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 
 * [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment1.html){:target="_blank"}
 
-<!-- * [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment2.html){:target="_blank"} -->
+* [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment2.html){:target="_blank"}
 
 
 
