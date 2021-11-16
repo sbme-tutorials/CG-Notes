@@ -36,6 +36,7 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 |   2  | Transformations | Assignment 1|
 |   3  | Projection | |
 |   4  | Camera Transformation |  Assignment 2 |
+|   5  | Ray Casting and Lighting |   |
 
 ## Tutorials
 
@@ -50,6 +51,10 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 
 * Week 4: Camera Transformation
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/4-week4.html){:target="_blank"}
+
+* Week 5: Ray Casting and Lighting
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/5-week5.html){:target="_blank"}
+
 
 
 ## Sheets 
