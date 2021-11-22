@@ -63,7 +63,7 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 
 ## Sheets 
 
-* [Sheet 1: Transformations](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/Sheet1.pdf)
+* [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/Sheet1.pdf)
 
 * [Sheet 2](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/Sheet2.pdf)
 
