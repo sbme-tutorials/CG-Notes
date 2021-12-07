@@ -38,6 +38,7 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 |   4  | Camera Transformation |  Assignment 2 |
 |   5  | Ray Casting and Lighting |   |
 |   6  | Revision| |
+|   7  | Texture Mapping & Object Loading | Assignment 3|
 
 ## Tutorials
 
@@ -60,6 +61,8 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
     * [Notes](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Revision.ipynb)
     {:target="_blank"}
 
+* Week 7: Texture Mapping & Object Loading 
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Fall2021/notes/6-week6.html){:target="_blank"}
 
 ## Sheets 
 
@@ -77,4 +80,4 @@ Demonstrators:  Eng. Eslam Adel and Eng. Mohamed Adel.
 * [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment2.html){:target="_blank"}
 
 
-
+* [Assignment 3](https://sbme-tutorials.github.io/CG-Notes/Fall2021/assignments/assignment3.html){:target="_blank"}
