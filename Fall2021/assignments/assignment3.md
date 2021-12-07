@@ -1,5 +1,5 @@
 ---
-title:  "Assignment 3: Body Animation"
+title:  "Assignment 3: Body Animation, Texture mapping and Loading objects"
 ---
 
 ## Objectives
