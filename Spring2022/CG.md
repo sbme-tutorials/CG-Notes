@@ -1,4 +1,4 @@
- ---
+---
 title: "Computer  Graphics \(SBEN224\) - Spring 2022"
 ---
 
