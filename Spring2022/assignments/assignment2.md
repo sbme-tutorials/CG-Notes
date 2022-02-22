@@ -1,4 +1,4 @@
----
+<!-- ---
 title:  "Assignment 2: Full Body Movement"
 ---
 
@@ -37,4 +37,4 @@ This is an individual assignment
 ```terminal
 $ git commit -a -m "solved all problems!"
 $ git push origin master
-```
+``` -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 title:  "Assignment 3: Animation, Texture mapping and Loading objects"
 ---
 
@@ -56,4 +56,4 @@ Report all details about your implementations in markdown file (Report.md). Repo
 ```terminal
 git commit -a -m "solved all problems!"
 git push origin master
-```
+``` -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Ray Casting, Lightening  & Animation"
 ---
 * TOC
@@ -151,4 +151,4 @@ When we run these poses with time it will seem that the object is moving.
 
 ### Section Demo
 
-All demos will be available in [this](https://github.com/sbme-tutorials/SBE306-Computer-Graphics-Tutorials) repository
+All demos will be available in [this](https://github.com/sbme-tutorials/SBE306-Computer-Graphics-Tutorials) repository -->

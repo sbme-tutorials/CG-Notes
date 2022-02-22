@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Texture Mapping & Object Loading"
 ---
 * TOC
@@ -116,4 +116,4 @@ Models with texture images are not required in this course.
 
 ## Section Demos
 
-Demos are available [here](https://github.com/sbme-tutorials/SBE306-Computer-Graphics-Tutorials/tree/master/Tutorial-05). 
+Demos are available [here](https://github.com/sbme-tutorials/SBE306-Computer-Graphics-Tutorials/tree/master/Tutorial-05).  -->

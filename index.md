@@ -1,8 +1,7 @@
-# Tutorials and Course Announcements
+# Computer Graphics and Medical Visualization
 
-## Fall 2021
-* [Computer Graphics \(SBE3130\)](https://sbme-tutorials.github.io/CG-Notes/Fall2021/CG.html), by Dr. Ayman Eldeib, Eng. Eslam Adel, and Eng. Mohamed Adel.
-
+## Spring 2022
+* [Computer Graphics \(SBEN224\)](https://sbme-tutorials.github.io/CG-Notes/Spring2022/CG.html), by Dr. Ayman Eldeib, Eng. Eslam Adel
  
 
 ### Announcements

@@ -1,4 +1,4 @@
-# Assignment 1
+<!-- # Assignment 1
 
 ## Objectives
 
@@ -42,4 +42,4 @@ Report all details about your implementations in markdown file (Report.md). Repo
 ```terminal
 $ git commit -a -m "solved"
 $ git push origin master
-```
+``` -->
