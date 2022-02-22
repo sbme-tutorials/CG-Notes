@@ -78,11 +78,7 @@ title: "Introduction to Computer Graphics"
 
         ![](../images/week1_12.png)
 
-* Unity Game Engine:
-    * Drag and drop tool with coding for fast production
-    * Cross platform (Desktop and mobiles) 
 
-        ![](../images/week1_13.png)
 
 * OpenGL:
     * Cross platform application programming interface (API) for rendering
