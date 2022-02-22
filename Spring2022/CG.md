@@ -1,4 +1,4 @@
-# Computer  Graphics \(SBEN224\) - Spring 2022"
+# Computer  Graphics \(SBEN224\) - Spring 2022
 
 ## Teaching Staff
 
