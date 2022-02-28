@@ -1,4 +1,4 @@
-<!-- # Assignment 1
+# Assignment 1
 
 ## Objectives
 
@@ -10,18 +10,29 @@
 
 ## Deadline
 
-27/10/2021
+10/3/2022
 
 ## Joining to Assignment Repository
 
-1. Go to the [Assignment Page](https://classroom.github.com/a/d33DQoa4)
+1. Go to the [Assignment Page](https://classroom.github.com/a/w_asRLZa)
 2. Join your group or create it
 3. Wait till your repository created.
 
 ## Part 1: Programming
 
 1. Complete the robotic arm model by adding missing fingers
-2. Control arm movements using keyboard key with movement limitation.
+2. Control arm movements using keyboard key with movement limitation according to the following table
+
+| Key| Movement type | Notes |
+|---|---|--|
+|**s** | Shoulder Rotation | Abduction | 
+|**S** | Shoulder Rotation | Adduction |
+|**e** | elbow Rotation |Flexion|
+|**E** | elbow Rotation | Extension|
+|**f** | Fingers close || 
+|**F** | Fingers Open || 
+|**p** | Upper Phalange close || 
+|**P** | Upper Phalange Open || 
 
 ![](../images/robot-arm-fingers.png)
 
@@ -42,4 +53,4 @@ Report all details about your implementations in markdown file (Report.md). Repo
 ```terminal
 $ git commit -a -m "solved"
 $ git push origin master
-``` -->
+```
