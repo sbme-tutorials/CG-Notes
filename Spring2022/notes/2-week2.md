@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Transformations"
 ---
 
@@ -257,4 +257,4 @@ Which first ?
 
 ### Section Demo
 
-All section demos are available [here](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-02/). -->
+All section demos are available [here](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-02/).
