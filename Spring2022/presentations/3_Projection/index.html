@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projection</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Transformations
+
+## Eslam Adel
+### eslam.a.mahmoud@eng1.cu.edu.eg
+
+---
+## Projection 
+
+--
+
+* 3D projection is mapping a 3 dimensional points to a 2D plane. 
+
+--
+
+### Types of projection
+
+--
+
+1. Parallel Projection (Orthogonal)
+
+It preserves the parallelism where parallel lines still parallel by just dropping the Z dimension
+
+--
+
+$$
+\begin{bmatrix}
+x' \\\ y' \\\ 0 \\\ 1
+\end{bmatrix} = 
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\\ 
+0 & 1 & 0 & 0  \\\ 
+0 & 0 & 0 & 0\\\ 
+0 & 0 & 0 & 1 
+\end{bmatrix}
+\begin{bmatrix}
+x \\\ y \\\ z \\\ 1
+\end{bmatrix}
+$$
+
+---
+class: center, middle
+
+
+![Alt](../../images/parallel.png "Parallel Projection")
+
+Parallel Projection
+
+---
+
+## 2. Perspective Projection
+
+--
+
+* It does not preserve parallelism (converge to a single point).
+--
+
+* Nearer objects are larger and further are smaller. 
+--
+
+![](../../images/perspective.png)
+
+---
+## Perspective Projection matrix
+--
+
+$$
+\begin{bmatrix}
+\frac{f}{aspect} & 0 & 0 & 0 \\\
+0 & f & 0 & 0 \\\
+<!-- 0 & 0 & \frac{Z_{far} + Z_{near}}{Z_{far} - Z_{near}} & \frac{2  Z_{far}\times Z_{near}}{Z_{far} - Z_{near}}\\\  -->
+0 & 0 & -1 & 0
+\end{bmatrix}
+$$
+
+Where 
+
+$$
+f = cot(\frac{fov_y}{2})
+$$
+
+---
+
+## Defining Projection Plane
+
+
+To Do that in OpenGL you have two ways 
+--
+
+### glFrustum
+
+```c
+void glFrustum(	GLdouble left,
+ 	GLdouble right,
+ 	GLdouble bottom,
+ 	GLdouble top,
+ 	GLdouble nearVal,
+ 	GLdouble farVal);
+```
+
+![](../../images/frustum.png)
+
+---
+
+## glPerspective
+--
+
+```c
+void gluPerspective(	GLdouble fovy,
+ 	GLdouble aspect,
+ 	GLdouble zNear,
+ 	GLdouble zFar);
+```
+
+![](../../images/perpective-func.png)
+
+---
+
+## Defining Camera Coordinates
+--
+
+We can define the camera coordinates in OpenGL using 
+
+--
+```c
+void gluLookAt(	GLdouble eyeX,
+ 	GLdouble eyeY,
+ 	GLdouble eyeZ,
+ 	GLdouble centerX,
+ 	GLdouble centerY,
+ 	GLdouble centerZ,
+ 	GLdouble upX,
+ 	GLdouble upY,
+ 	GLdouble upZ);
+```
+
+![](../../images/camera-coord.png)
+
+--
+
+**Note:**
+
+ For up direction we care about the sign (Direction of the vector).
+---
+
+## Pipeline 
+
+--
+
+Assembly line from set of vertices to set of pixels (image).
+
+--
+
+
+![](../../images/gl-pipeline.png)
+
+The pipeline simply includes 
+
+--
+1. 3D Modeling (Primitives or vertices) **Model (World Coordinates)**
+--
+
+
+2. Lightening and coloring calculations 
+--
+
+
+3. Transform to 3D camera coordinates **View (Camera Coordinates)**
+--
+
+
+4. Clip to 2D Screen coordinates **Projection (Sceen Coordinate)**
+---
+class: center, middle
+--
+
+<img src=../../images/model-view.png width="95%" >
+
+
+Model, View, Projection
+
+---
+## Projection Demo 
+
+* Projection and camera positioning 
+
+<center>
+<img  src=../../images/projection-demo.png width="60%" >
+</center>
+
+---
+## Pipeline
+### Points (Vertices)
+Each Object is a set of points 
+--
+
+<center>
+<img  src=../../images/points-demo.png width="60%" >
+</center>
+
+---
+## Meshes
+
+This points are connected together to make a polygon or a mesh
+--
+
+<center>
+<img  src=../../images/meshes-demo.png width="60%" >
+</center>
+    
+
+---
+## Coloring and Lightening
+
+These meshes are colored and lightened.
+--
+
+<center>
+<img  src=../../images/obj-demo.png width="60%" >
+</center>
+        
+---
+
+## Animation Using timer function 
+
+* Solar system demo.
+--
+
+* Rotation of planet around the sun and around itself at the same time.
+--
+
+<center>
+    <img src=../../images/timer.png width ="55%">
+</center>
+
+
+---
+class: center, middle
+# Thanks
+
+    </textarea>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
