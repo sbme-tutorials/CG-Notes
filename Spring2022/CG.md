@@ -4,7 +4,7 @@
 
 Instructors: Prof. Ayman Eldeib
 
-Demonstrators:  Eng. Eslam Adel
+Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 
 ## Section Hours
