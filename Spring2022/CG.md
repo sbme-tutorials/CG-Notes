@@ -46,6 +46,10 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/2-week2.html){:target="_blank"}
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/2_Transformation/#1){:target="_blank"}
 
+* Week 3: Projection
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/3-week3.html){:target="_blank"}
+    * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/3_Projection/#1){:target="_blank"}
+
 ## Sheets
 
 * [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet1.pdf){:target="_blank"}
