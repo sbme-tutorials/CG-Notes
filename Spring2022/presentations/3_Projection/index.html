@@ -69,6 +69,30 @@ class: center, middle
 Parallel Projection
 
 ---
+## Parallel Projection (OpenGL)
+
+--
+
+To define projection plan in OpenGL
+
+--
+
+```c++
+void glOrtho(GLdouble  Left,
+     GLdouble  Right,
+     GLdouble  Bottom,
+     GLdouble  Top,
+     GLdouble  Near,  
+     GLdouble  Far)
+```
+
+--
+
+<center>
+<img src=../../images/ortho1.png width="70%"/>
+</center>
+
+---
 
 ## 2. Perspective Projection
 
@@ -77,12 +101,14 @@ Parallel Projection
 * It does not preserve parallelism (converge to a single point).
 --
 
+
 * Nearer objects are larger and further are smaller. 
 --
 
 ![](../../images/perspective.png)
 
 ---
+
 ## Perspective Projection matrix
 --
 
@@ -262,8 +288,11 @@ class: center, middle
 
     </textarea>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
+    <!-- <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script> -->
+    
+    <!-- <script src="../js/MathJax.js" type="text/javascript"></script> -->
+    <script src="../js/remark-latest.min.js"></script>
+    
     <script>
       var slideshow = remark.create();
     </script>
