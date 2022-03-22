@@ -66,4 +66,4 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 * [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment1.html){:target="_blank"}
 
-* [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment2.html){:target="_blank"}
+* [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment2.html){:target="_blank"}

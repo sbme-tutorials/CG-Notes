@@ -2,6 +2,9 @@
 title:  "Assignment 2: Full Body Movement"
 ---
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
 ## Objectives
 
 * Raising modeling adn transformation level. 
