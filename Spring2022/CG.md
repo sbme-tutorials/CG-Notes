@@ -18,7 +18,8 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 
 | Day | Time |
 |-----|-----------|
-| Thursday | from **3:30 PM** to **6 PM** |
+| Sunday | from **3:30 PM** to **6 PM** |
+| Monday | from **3 PM** to **4 PM** |
 
 ## Grading
 
@@ -34,6 +35,8 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |------|-----------------|-----|
 |   1  | Introduction to Computer Graphics| |
 |   2  | Transformations | Assignment 1|
+|   3  | Projection | |
+|   4  | Camera Transformations | Assignment 2 |
 
 
 ## Tutorials
@@ -50,6 +53,10 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/3-week3.html){:target="_blank"}
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/3_Projection/#1){:target="_blank"}
 
+* Week 4: Camera Transformations
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/4-week4.html){:target="_blank"}
+    * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/4_Camera/#1){:target="_blank"}
+
 ## Sheets
 
 * [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet1.pdf){:target="_blank"}
@@ -58,3 +65,5 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 ## Assignments
 
 * [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment1.html){:target="_blank"}
+
+* [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment2.html){:target="_blank"}

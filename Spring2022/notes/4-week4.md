@@ -1,4 +1,4 @@
-<!-- ---
+---
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
@@ -10,7 +10,7 @@ title: "Camera Transformation"
 * TOC
 {:toc}
 
-## types of transformation
+## Types of transformation
 *  modelling transformation:
 	* Size, place, scale, and rotate objects parts
 	* Object coordinates to world coordinates
@@ -56,7 +56,22 @@ the vertical direction with of the camera of course is parallel to the Up vector
 
 the following function rotates a point around a vector
 
-![](../images/rotate.png)
+<!-- ![](../images/rotate.png) -->
+$$
+R(a, \theta) = cos\theta \begin{pmatrix} 
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 
+\end{pmatrix} + (1-cos\theta) \begin{pmatrix}
+x^2 & xy & z^2 \\
+xy & y^2 & yz \\
+xz & yz & z^2
+\end{pmatrix} + sin\theta \begin{pmatrix}
+0 & -z & y \\
+z &  0 & -x \\
+-y & x & 0 
+\end{pmatrix} 
+$$
 
 ```c++
 void rotatePoint(double a[], double theta, double p[])
@@ -206,4 +221,4 @@ and clear both color and depth buffer after each frame.
 
 ```c++
 glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
-``` -->
+```
