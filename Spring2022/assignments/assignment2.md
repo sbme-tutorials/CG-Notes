@@ -42,15 +42,13 @@ Deadline for online submission will be  on  **Wednesday 29/3/2022 11:59 PM**
 |**$$\downarrow$$** | Camera rotation down|  | 
 |**$$\rightarrow$$** | Camera rotation right |  | 
 |**$$\leftarrow$$** | Camera rotation left |  | 
+|**f** | move camera forward|  | 
+|**b** | move camera backward |  | 
 |**Space Bar** | Start/Stop animation | | 
 |**s** | Shoulder Rotation | Abduction | 
 |**S** | Shoulder Rotation | Adduction |
 |**e** | elbow Rotation |Flexion|
 |**E** | elbow Rotation | Extension|
-|**f** | Fingers close || 
-|**F** | Fingers Open || 
-|**p** | Upper Phalange close || 
-|**P** | Upper Phalange Open || 
 |**k** | Knee rotation Leg1 | Flexion| 
 |**K** | Knee rotation Leg1 | Extension| 
 |**n** | Knee rotation Leg2 | Flexion| 
