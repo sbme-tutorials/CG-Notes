@@ -38,10 +38,10 @@ Deadline for online submission will be  on  **Wednesday 29/3/2022 11:59 PM**
 
 | Key| Movement type | Notes |
 |---|---|--|
-|**$\uparrow$** | Camera rotation up |  | 
-|**$\downarrow$** | Camera rotation down|  | 
-|**$\rightarrow$** | Camera rotation right |  | 
-|**$\leftarrow$** | Camera rotation left |  | 
+|**$$\uparrow$$** | Camera rotation up |  | 
+|**$$\downarrow$$** | Camera rotation down|  | 
+|**$$\rightarrow$$** | Camera rotation right |  | 
+|**$$\leftarrow$$** | Camera rotation left |  | 
 |**Space Bar** | Start/Stop animation | | 
 |**s** | Shoulder Rotation | Abduction | 
 |**S** | Shoulder Rotation | Adduction |
