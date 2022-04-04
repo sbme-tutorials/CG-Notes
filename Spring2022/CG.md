@@ -37,6 +37,7 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   2  | Transformations | Assignment 1|
 |   3  | Projection | |
 |   4  | Camera Transformations | Assignment 2 |
+|   5   | Ray Casting and Lighting | |
 
 
 ## Tutorials
@@ -56,6 +57,10 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Week 4: Camera Transformations
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/4-week4.html){:target="_blank"}
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/4_Camera/#1){:target="_blank"}
+
+* Week 5: Ray Casting and Lighting 
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/5-week5.html){:target="_blank"}
+    * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/5_Lighting/#1){:target="_blank"}
 
 ## Sheets
 

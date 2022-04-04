@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ray Casting and Lighting</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Ray Casting and Lighting
+
+### Instructed by: Eslam Adel
+#### eslam.a.mahmoud@eng1.cu.edu.eg
+
+---
+## Ray Casting
+
+--
+
+
+### Vision Process
+
+Vision process is as follow
+--
+
+![](../../images/cameragen.gif)
+
+
+
+---
+## Ray Casting Cont, 
+
+--
+**Ideally**
+
+* There is an infinite number of rays 
+* Multiple reflections happen for the same ray on different objects 
+--
+
+
+* So how we simulate this in computer graphics ?
+Keep in mind that the objective is to get a 2D image of the scene. 
+
+
+---
+
+## Ray Casting Cont, 
+--
+
+**Basic Idea**
+The process is reversed where rays are sent from the camera position instead of receive it at the camera position. 
+--
+
+
+Pseudo code for ray casting  
+```python 
+for each pixel:
+    Send a ray through the scene
+    Find the interection with objects 
+    Calculate the color at this intersection 
+    Assign this color to that pixel where ray was sent from
+```
+--
+<center>
+<img src="../../images/300px-Ray_trace_diagram.svg.png" width="50%">
+</center>
+---
+## Ray Tracing
+
+--
+
+![](../images/ray-tracing.png)
+--
+
+
+* It is the same idea with more complex calculations
+--
+
+
+* Rays must be checked with all objects in the scene by tracking its reflections recursively. 
+--
+
+
+* It is computationally extensive and time-consuming process but has realistic results.
+
+---
+## Ray Tracing Cont, 
+--
+
+* Sample of generated images with ray tracing [(source)](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
+--
+
+
+![](../../images/800px-Glasses_800_edit.png)
+
+---
+### Ray Tracing Cont,
+
+--
+
+<img src="../../images/1024px-BallsRender.png" width="100%">
+
+---
+## Lighting and materials 
+
+### Classical lighting model 
+--
+
+
+* Ambient lighting : 
+
+	It is an approximation of environmental light that comes from all direction and there is no direct light source. This light bounces through the scene equally. As a result, it illuminate all objects equally. It's like a fading light. 
+--
+
+
+* Diffuse lighting
+
+	The light that comes from a specific light source and reflected in all direction due to the roughness of the surface. 
+--
+
+
+
+
+---
+## Lighting Cont, 
+
+--
+
+![](../../images/diffuse.png)
+
+Reflection is in all direction.
+---
+## Lighting Cont, 
+
+--
+
+* Specular lighting:
+
+	This light comes from a particular direction and perfectly reflect on the surface. Such effect is clear for the smooth surfaces.
+--
+
+![](../../images/specular.png)
+
+---
+##  Lighting Cont,
+
+--
+* This is the effect of each component
+--
+
+
+
+<img src="../../images/phong.png" width="100%">
+
+---
+## Lighting in OpenGL 
+
+--
+* First, we need to define the light properties by defining RGB color for the ambient, diffuse, and specular components. 
+
+```c
+// Here we have a white light source
+float light_ambient[] = {1.0, 1.0, 1.0, 1.0};
+float light_diffuse[] = {1.0, 1.0, 1.0, 1.0};
+float light_specular[] = {1.0, 1.0, 1.0, 1.0};
+```
+
+--
+
+
+We need also to define the position of thr light source in our scene.
+
+```c
+// This is the light position
+float light_position[] = {0.0, 0.0, 4.0, 1.0};
+```
+
+
+---
+## Lighting in OpenGL Cont,
+
+--
+
+* Second, Specify and assign the light properties including the position to a specific light source.
+
+```c
+// Setting light source properties and enabling it
+glLightfv(GL_LIGHT1, GL_POSITION, light_position);
+glLightfv(GL_LIGHT1, GL_AMBIENT, light_ambient);
+glLightfv(GL_LIGHT1, GL_DIFFUSE, light_diffuse);
+glLightfv(GL_LIGHT1, GL_SPECULAR, light_specular);
+
+```
+--
+
+
+
+* Finally, We need to enable that light source and enable lighting in general. 
+
+```c
+glEnable(GL_LIGHT1);
+glEnable(GL_LIGHTING);
+```
+
+---
+## Defining material properties 
+
+--
+* We've seen how to create light sources and assign specific ambient, diffuse, and specular properties. 
+
+--
+
+* We also need to define the properties of the objects in the scene in terms of ambient, diffuse, specular, emission, and shines.
+--
+
+* First define the object properties. 
+
+```c
+GLfloat material_ambient[] = {0.1, 0.01, 0.01, 1.0},
+        material_diffuse[] = {0.3, 0.01, 0.01, 1.0},
+        material_specular[] = {1, 0.01, 0.01, 1.0},
+        material_shininess = 30;
+
+```
+--
+
+* Second, assign it to the object material
+
+```c
+glMaterialfv(GL_FRONT, GL_AMBIENT, material_ambient);
+glMaterialfv(GL_FRONT, GL_DIFFUSE, material_diffuse);
+glMaterialfv(GL_FRONT, GL_SPECULAR, material_specular);
+glMaterialf(GL_FRONT, GL_SHININESS, material_shininess);
+```
+---
+## Red light sphere Demo
+
+This is an example of a solid sphere 
+--
+
+
+**No light sources**
+
+![](../../images/no-light.png)
+---
+## Red light sphere Demo Cont,
+
+--
+
+
+**Only ambient is set**
+
+
+![](../../images/amb.png)
+---
+## Red light sphere Demo Cont,
+
+
+--
+
+
+**Ambient and diffuse**
+
+
+![](../../images/diff.png)
+---
+## Red light sphere Demo Cont,
+
+
+--
+
+
+**Ambient, diffuse, and specular**
+
+
+![](../../images/spec.png)
+--
+
+
+**Note**
+
+The overall appearance of the object is determined by both  material and light properties (**lightlab Demo**) 
+---
+### Shading models
+
+--
+<center>
+<img src="../../images/flat.jpeg" width="40%">
+</center>
+--
+
+
+There are two types of shading:
+--
+
+
+* Flat shading where each facet is shaded with its color and in between edges will appear. This is due to the color differences between facets. 
+
+```c
+glShadeModel(GL_FLAT);
+```
+--
+
+
+* Gouraud shading (Smooth) where the color of the in between edges is an interpolation of the color of the surrounding facets. As a result, no clear edges are seen. It looks smooth.
+```c
+glShadeModel(GL_SMOOTH);
+```
+--
+
+
+By default it's shading is smooth. 
+---
+class: center, middle
+# Thanks
+
+    </textarea>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <!-- <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script> -->
+    
+    <!-- <script src="../js/MathJax.js" type="text/javascript"></script> -->
+    <script src="../js/remark-latest.min.js"></script>
+    
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
