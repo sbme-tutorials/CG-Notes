@@ -61,6 +61,7 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Week 5: Ray Casting and Lighting 
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/5-week5.html){:target="_blank"}
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/5_Lighting/#1){:target="_blank"}
+    * [Video](https://drive.google.com/file/d/19kTDuLB_gYc-2UuwullTnXHIjOyi2QhK/view?usp=sharing){:target="_blank"}
 
 ## Sheets
 

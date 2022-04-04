@@ -182,8 +182,11 @@ glShadeModel(GL_SMOOTH);
 
 By default, shading is smooth. 
 
+### Demo 
 
-References:
+Demos are [here](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/tree/master/Tutorial-05).
+
+### References:
 
 https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glLight.xml
 
