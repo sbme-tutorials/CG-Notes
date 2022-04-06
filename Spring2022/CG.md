@@ -63,9 +63,14 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/5_Lighting/#1){:target="_blank"}
     * [Video](https://drive.google.com/file/d/19kTDuLB_gYc-2UuwullTnXHIjOyi2QhK/view?usp=sharing){:target="_blank"}
 
+* Revision
+    * [Notes](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-06/Revision.ipynb){:target="_blank"}
+
 ## Sheets
 
 * [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet1.pdf){:target="_blank"}
+
+* [Sheet 2](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet2.pdf){:target="_blank"}
 
 
 ## Assignments
