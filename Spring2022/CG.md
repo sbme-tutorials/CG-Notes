@@ -38,6 +38,8 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   3  | Projection | |
 |   4  | Camera Transformations | Assignment 2 |
 |   5   | Ray Casting and Lighting | |
+|   6   | Revision | |
+|   7   | Texture mapping | Assignment 3 |
 
 
 ## Tutorials
@@ -66,6 +68,9 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Revision
     * [Notes](https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-06/Revision.ipynb){:target="_blank"}
 
+* Texture mapping
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/6-week6.html){:target="_blank"}
+
 ## Sheets
 
 * [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet1.pdf){:target="_blank"}
@@ -78,3 +83,4 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * [Assignment 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment1.html){:target="_blank"}
 
 * [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment2.html){:target="_blank"}
+
