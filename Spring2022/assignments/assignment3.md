@@ -16,7 +16,7 @@ Deadline for online submission will be on **Thursday 16/5/2022 11:59 PM**
 
 ## Joining to Assignment Repository
 
-1. Go to the [Assignment Page]().
+1. Go to the [Assignment Page](https://classroom.github.com/a/K6gGKYk2).
 2. Accept the assignment.
 3. Join your group.
 
@@ -30,9 +30,7 @@ Previously you designed the robotic body with a full of movements.
 
 3. Use a menu binned to the right mouse button to change the floor texture.
 
-4. You are required to to design two animations:
-    * One using the robotic body without interaction with any object.
-    * Another animation: the robotic body should interact with one of the loaded objects
+4. You are required to to design one animation using the robotic body without interaction with any object.
 
 5. Download different objects and load it in your scene to make sense of the animation environment.
 
