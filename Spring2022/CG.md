@@ -40,6 +40,7 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 |   5   | Ray Casting and Lighting | |
 |   6   | Revision | |
 |   7   | Texture mapping | Assignment 3 |
+|   8   | Medical Visualization | |
 
 
 ## Tutorials
@@ -71,6 +72,10 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Texture mapping
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/6-week6.html){:target="_blank"}
 
+* Medical Visualization
+    * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/7-week7.html){:target="_blank"}
+    * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/7_Visualization/#1){:target="_blank"}
+    
 ## Sheets
 
 * [Sheet 1](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/Sheet1.pdf){:target="_blank"}
