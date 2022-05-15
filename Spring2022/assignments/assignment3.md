@@ -12,7 +12,7 @@ title:  "Assignment 3: Texture mapping and Loading objects"
 
 ## Deadline
 
-Deadline for online submission will be on **Thursday 16/5/2022 11:59 PM**
+Deadline for online submission will be on **Monday 16/5/2022 11:59 PM**
 
 ## Joining to Assignment Repository
 
