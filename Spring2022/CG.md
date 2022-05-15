@@ -90,3 +90,5 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * [Assignment 2](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment2.html){:target="_blank"}
 
 * [Assignment 3](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/assignment3.html){:target="_blank"}
+
+* [Course Project](https://sbme-tutorials.github.io/CG-Notes/Spring2022/assignments/course_project.html){:target="_blank"}

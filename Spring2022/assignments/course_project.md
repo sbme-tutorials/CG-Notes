@@ -18,7 +18,7 @@ Deadline for online submission will be on **Thursday 26/5/2022 11:59 PM**
 
 ## Joining to Project Repository
 
-1. Go to the [Assignment Page]().
+1. Go to the [Assignment Page](https://classroom.github.com/a/ireG7u76).
 2. Accept the assignment.
 3. Join your group.
 
