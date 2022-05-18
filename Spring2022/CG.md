@@ -75,6 +75,9 @@ Demonstrators:  Eng. Eslam Adel (eslam.a.mahmoud@eng1.cu.edu.eg)
 * Medical Visualization
     * [Notes](https://sbme-tutorials.github.io/CG-Notes/Spring2022/notes/7-week7.html){:target="_blank"}
     * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/7_Visualization/#1){:target="_blank"}
+
+* Introduction to VTK.js
+    * [Slides](https://sbme-tutorials.github.io/CG-Notes/Spring2022/presentations/8_vtkjs/#1){:target="_blank"}
     
 ## Sheets
 
